@@ -12,9 +12,6 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                 '''
-        stage('Push to ECR') {
-            steps {
-                sh 'echo pushing...'
 
         stage('Build Yolo5 app') {
            steps {
