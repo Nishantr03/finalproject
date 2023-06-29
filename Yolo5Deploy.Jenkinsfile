@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    parameters { string(name: 'YOLO5_IMAGE_URL', defaultValue: ' 854171615125.dkr.ecr.us-east-2.amazonaws.com/nishant-project2:latest', description: 'yolo5-Deploy') }
+    parameters { string(name: 'YOLO5_IMAGE_URL', defaultValue: '854171615125.dkr.ecr.us-east-2.amazonaws.com/nishant-project2:15', description: 'yolo5-Deploy') }
 
     stages {
         stage('Deploy') {
