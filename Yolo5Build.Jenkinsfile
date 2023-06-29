@@ -22,5 +22,12 @@ pipeline {
                '''
            }
         }
+//         stage('Trigger Deploy') {
+//             steps {
+//                 build job: 'Yolo5Deploy', wait: false, parameters: [
+//                     string(name: 'YOLO5_IMAGE_URL', value: "<full-url-to-docker-image>")
+//                 ]
+//             }
+        }
     }
 }
