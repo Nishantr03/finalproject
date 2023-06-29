@@ -27,6 +27,6 @@ pipeline {
 //                      string(name: 'YOLO5_IMAGE_URL', value: "854171615125.dkr.ecr.us-east-2.amazonaws.com/nishant-project2:0.0.1")
 //                  ]
 //              }
-        }
+//       }
     }
 }
