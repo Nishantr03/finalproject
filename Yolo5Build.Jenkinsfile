@@ -28,6 +28,6 @@ pipeline {
 //                     string(name: 'YOLO5_IMAGE_URL', value: "<full-url-to-docker-image>")
 //                 ]
 //             }
-        }
+//       }
     }
 }
