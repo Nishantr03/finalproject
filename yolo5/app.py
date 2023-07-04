@@ -12,6 +12,7 @@ import yaml
 from loguru import logger
 import json
 
+
 with open("data/coco128.yaml", "r") as stream:
     names = yaml.safe_load(stream)['names']
 
